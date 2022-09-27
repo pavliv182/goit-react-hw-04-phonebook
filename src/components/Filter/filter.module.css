@@ -1,0 +1,14 @@
+.filterWrapper {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filterWrapper label {
+  display: flex;
+  flex-direction: column;
+}
+.filterWrapper input {
+  margin-top: 5px;
+  width: 150px;
+}
