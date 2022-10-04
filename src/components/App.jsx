@@ -11,11 +11,11 @@ export const App = () => {
   const [filter, setFilter] = useState('');
 
   const firstRender = useRef(true);
-  console.log(firstRender);
+  // console.log(firstRender);
 
   useEffect(() => {
     const contacts = JSON.parse(localStorage.getItem('contacts'));
-    console.log(contacts);
+    // console.log(contacts);
     //  если const contacts существует и у него есть длинна то:
     if (contacts?.length) {
       setContacts(contacts);
